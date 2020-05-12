@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MineSkins
+title: An exploration into the field of computer-generated artwork using GANs.
 #tagline: Easy websites with GitHub Pages
 description: Generation of low-resolution video game artwork using a Generative Adversarial Network (GAN)
 ---
