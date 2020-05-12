@@ -5,6 +5,8 @@ title: An exploration into the field of computer-generated artwork using GANs.
 description: Generation of low-resolution video game artwork using a Generative Adversarial Network (GAN)
 ---
 
+![Minecraft Logo](./assets/main-logo.jfif)
+
 [Github Pages](https://pages.github.com) provide a simple way to make a
 website using
 [Markdown](https://daringfireball.net/projects/markdown/) and
