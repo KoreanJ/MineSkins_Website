@@ -5,8 +5,7 @@ title: An exploration into the field of computer-generated artwork using GANs.
 description: Generation of low-resolution video game artwork using a Generative Adversarial Network (GAN)
 ---
 
-![Minecraft Logo](./assets/main-logo.jfif)
-<img src="./assets/main-logo.jfif" width="500" height="800" />
+<img src="./assets/main-logo.jfif" width="500" height="800"/>
 
 ### Overview
 Minecraft, a muiltiplayer adventure-like computer game, puts players into an infinitely and randomly generated world in which they can harvest resources, build structures, and craft new items. Each player model is wrapped in a 64 x 64 pixel skin which each player can either download from the internet or custom themselves using one of the readily available online skin editing tools. <br>
@@ -17,5 +16,8 @@ In this project I aim to answer two very big questions:
 
 ### Menu
 [Project Details](pages/resources.html)
-[Visuals](pages/overview.html)
+[Visuals](pages/visuals.html)
+
+## References
+- [Dictionary of English Words](https://github.com/dwyl/english-words)
 
