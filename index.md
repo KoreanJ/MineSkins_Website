@@ -15,8 +15,8 @@ In this project I aim to answer two very big questions:
 2. Are we able to use each skin's raw data to generate new Minecraft skins?
 
 ### Menu
-[Project Details](pages/resources.html)
-[Visuals](pages/visuals.html)
+- [Visuals](pages/visuals.html)
+- [Project Details](pages/resources.html)
 
 ## References
 - [Dictionary of English Words](https://github.com/dwyl/english-words)
