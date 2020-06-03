@@ -26,22 +26,16 @@ For every skin that is found, its associated image number is also used as an ind
 ## EDA
 The first avenue that was explored in this project was the visual features of each skin. This meant going through some of the downloaded images and looking at each skin's various components. Here are some examples of the unwrapped skins:
 
-Sample 1 | Sample 2
-:---:|:---:
-![](../assets/0.png) | ![](../assets/1.png)
+Real Sample 1 | Real Sample 2 | Real Sample 3
+:---:|:---:|:---:
+![](../assets/skin-unwrapped-01.png) | ![](../assets/skin-unwrapped-02.png) | ![](../assets/skin-unwrapped-03.png)
 
 Through this process I started to notice that certain areas of the skin were completely greyed out (transparency set to 100%) and others were populated with intentional colorings. I then performed a small analysis on each image's data.
 
 <div>
-    <p>Mean Row-Wise Variance</p>
-    <img src="../assets/variance_histogram.png" width="500" height="800"/>
-</div>
-
-<div>
-    <p>Mean Hue</p>
+    <img src="../assets/variance-histogram.png" width="500" height="800"/>
     <img src="../assets/mean_hue_histogram.png" width="500" height="800"/>
 </div>
-
 
 ## Training the DCGAN
 
