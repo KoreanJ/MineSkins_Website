@@ -16,7 +16,10 @@ description:
 ### Overview
 Minecraft, a creative sandbox-like computer game, allows players to explore their personalized randomly generated world in which they can harvest resources, build structures, and craft new items. Each player model is wrapped using a flattened "skin" which can either be downloaded from the internet or custom build using one of the many online editors. <br>
 
-<img src="./assets/skin-editor.png" width="600" height="600"/> <br>
+<div align="center">
+    <img src="./assets/skin-editor.png" width="500" height="500"/> <br>
+    <img src="./assets/skin-in-game-01.png" width="500" height="500"/> <br>
+</div>
 
 In this project I attempt the following objectives:
 1. Visualize the sample of skins as clusters using associated tags
