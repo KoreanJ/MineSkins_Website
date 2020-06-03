@@ -24,9 +24,9 @@ In this project I attempt the following objectives:
 
 A sample of roughly 2800 skins were downloaded from https://www.minecraftskins.com/ and stored locally as PNG files. Using PyTorch's example DCGAN implementation, I trained the Generator and Discriminator networks using the sample of skins until the resulting outputs seemed reasonable. This process took roughly 180 epochs although the DCGAN was able to produce cohesive results within the first 50 epochs. <br>
 
-<img src="./assets/training.gif" width="400" height="400"/> <br>
+<img src="./assets/training.gif" width="400" height="400" class="center" /> <br>
 
-For the second portion of my objective, each skin converted into a feature vector and reduced into 2 dimensions that that a comprehensible plot could be produced. This image feature extraction process utilized the VGG16 convolution neural network, a pre-trained network that was fed 1.2 million images. The resulting array of feature vectors was then reduced using UMAP (Uniform Manifold Approximation and Projection), a state of the art function for reducing high dimensional data down to only 2 dimensions for visualizations. <br>
+For the second portion of my objective, each skin was converted into a feature vector and reduced into 2 dimensions so that a comprehensible plot could be produced. My objective was to observe whether these skins, when reduced from thousand of dimensions into 2, preserved any sort of clusterable structure. The image feature extraction process utilized the VGG16 convolution neural network, a pre-trained network that was fed 1.2 million images. The resulting array of feature vectors was then reduced using UMAP (Uniform Manifold Approximation and Projection) and displayed in a 2-D plot which is labeled by each of the point's class. <br>
 
-<img src="./assets/full-dataset-top-class-labels.png" width="1000" height="800"/> <br>
+<img src="./assets/full-data-umap-plot.png" width="1000" height="1000" class="center" /> <br>
 
