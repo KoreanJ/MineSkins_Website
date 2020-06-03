@@ -44,7 +44,7 @@ Using the generated skins, I mapped each one on top of a Minecraft player model 
 
 Generated Skin 1 | Generated Skin 2
 :---------------:|:----------------:
-![](./assets/fake_3.png) | ![](./assets/fake_4.png)
+![](./assets/fake_3_scaled.png) | ![](./assets/fake_4.png)
 
 For the second portion of my objective, each skin was converted into a feature vector and reduced into 2 dimensions so that a comprehensible plot could be produced. My objective was to observe whether these skins, when reduced from thousand of dimensions into 2, preserved any sort of clusterable structure. The image feature extraction process utilized the VGG16 convolution neural network, a pre-trained network that was fed 1.2 million images. The resulting array of feature vectors was then reduced using UMAP (Uniform Manifold Approximation and Projection) and displayed in a 2-D plot which is labeled by each of the point's class. <br>
 
