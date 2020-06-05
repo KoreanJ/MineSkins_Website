@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MineSkins - an exploration of generative art and dimensional reduction
+title: An exploration in generative art and dimensionality reduction
 #tagline: Easy websites with GitHub Pages
 description:
 ---
