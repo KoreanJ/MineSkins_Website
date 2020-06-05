@@ -8,7 +8,7 @@ description:
 ### Menu
 | Methodology | Data | Visuals | Results | Future | References |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|[Methodology](pages/methodology.html)|[Data](pages/data.html)|[Visuals](pages/visuals.html)|[Results](pages/results.html)|[Looking Forward](pages/looking_forward.html)|[References](pages/references.html)|
+| [Methodology](pages/methodology.html) | [Data](pages/data.html) | [Visuals](pages/visuals.html) | [Results](pages/results.html) | [Looking Forward](pages/looking_forward.html) | [References](pages/references.html) |
 
 <br><br>
 
