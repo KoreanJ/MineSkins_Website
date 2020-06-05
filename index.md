@@ -13,10 +13,8 @@ description:
 
 ### Menu
 
-| Methodology | Data | Visuals | Results | Future | References |
-|:-----|:-----|:-----|:-----|:-----|:-----|
-| [Methodology](pages/methodology.html) | [Data](pages/data.html) | [Visuals](pages/visuals.html) | [Results](pages/results.html) | [Looking Forward](pages/looking_forward.html) | [References](pages/references.html) |
-{: .tablelines}
+[Methodology](pages/methodology.html)<t>[Data](pages/data.html)<t>[Visuals](pages/visuals.html)<t>[Results](pages/results.html)<t>[Looking Forward](pages/looking_forward.html)<t>[Appendix](pages/references.html)
+
 
 <br><br>
 
@@ -44,12 +42,12 @@ A sample of roughly 2800 skins were downloaded from https://www.minecraftskins.c
 Using the generated skins, I mapped each one on top of a Minecraft player model in order to visualize the results. Here are a few of the samples produced:
 
 <div align="center">
-    <img src="./assets/in-game-screenshots/angry-villager-0" width="400" height="800"/>
-    <img src="./assets/in-game-screenshots/gamer-girl-0" width="400" height="800"/>
+    <img src="./assets/in-game-screenshots/angry-villager-0.png" width="400" height="800"/>
+    <img src="./assets/in-game-screenshots/gamer-girl-0.png" width="400" height="800"/>
 </div>
 <div align="center">
-    <img src="./assets/in-game-screenshots/green-cyclops-1" width="400" height="800"/>
-    <img src="./assets/in-game-screenshots/fire-monster-0" width="400" height="800"/>
+    <img src="./assets/in-game-screenshots/green-cyclops-1.png" width="400" height="800"/>
+    <img src="./assets/in-game-screenshots/fire-monster-0.png" width="400" height="800"/>
 </div>
 <br>
 
@@ -59,15 +57,15 @@ For the second portion of my objective, each skin was converted into a feature v
 Below is a visual showing all 348 (including 10 randomly selected) Minecraft skins after dimensionality reduction. There are some clear clusters present since many of these skins are either exactly the same or very close in composition. This smaller data set served as a proof of concept before attempting to visualize the entire 2,800 large data set.
 <div align="center">
     <p>Spiderman Skins</p>
-    <img src="../assets/UMAP-spiderman-front-view.png" width="500" height="800"/>
-    <img src="../assets/UMAP-spiderman-zoomed-0-front-view.png" width="500" height="800"/>
+    <img src="./assets/UMAP-spiderman-front-view.png" width="500" height="800"/>
+    <img src="./assets/UMAP-spiderman-zoomed-0-front-view.png" width="500" height="800"/>
 </div>
 
 
 <div align="center">
     <p>All Skins</p>
-    <img src="../assets/UMAP-all-front-view.png" width="500" height="800"/>
-    <img src="../assets/UMAP-all-zoomed-0-front-view.png" width="500" height="800"/>
+    <img src="./assets/UMAP-all-front-view.png" width="500" height="800"/>
+    <img src="./assets/UMAP-all-zoomed-0-front-view.png" width="500" height="800"/>
 </div>
 
 <br>
