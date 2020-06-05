@@ -11,7 +11,6 @@ description:
         }
 </style>
 
-### Menu
 <!-- - [Methodology](pages/methodology.html)
 - [Data](pages/data.html)
 - [Visuals](pages/visuals.html)
