@@ -13,7 +13,7 @@ description:
 
 ### Menu
 
-[Methodology](pages/methodology.html)<t>[Data](pages/data.html)<t>[Visuals](pages/visuals.html)<t>[Results](pages/results.html)<t>[Looking Forward](pages/looking_forward.html)<t>[Appendix](pages/references.html)
+[Methodology](pages/methodology.html) <t> [Data](pages/data.html) <t> [Visuals](pages/visuals.html) <t> [Results](pages/results.html) <t> [Looking Forward](pages/looking_forward.html) <t> [Appendix](pages/references.html)
 
 
 <br><br>
