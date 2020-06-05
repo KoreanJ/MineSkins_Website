@@ -6,23 +6,25 @@ description:
 ---
 
 ### Menu
+
 | Methodology | Data | Visuals | Results | Future | References |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | [Methodology](pages/methodology.html) | [Data](pages/data.html) | [Visuals](pages/visuals.html) | [Results](pages/results.html) | [Looking Forward](pages/looking_forward.html) | [References](pages/references.html) |
 
 <br><br>
 
-### Overview
+### Background
 Minecraft, a creative sandbox-like computer game, allows players to explore their personalized randomly generated world in which they can harvest resources, build structures, and craft new items. Each player model is wrapped using a flattened "skin" which can either be downloaded from the internet or custom build using one of the many online editors. <br>
 
 Online Skin Editor | Minecraft Player (in-game)
 :---:|:---:
-![](./assets/skin-editor.png) | ![](./assets/skin-in-game-01.jpg)
+![](./assets/skin-editor.png) | ![](./assets/in-game-screenshots/skin-in-game-01.jpg)
 
 In this project I attempt the following objectives:
 1. Visualize the sample of skins as clusters using associated tags
 2. Use the sample of skins and a DCGAN to generate new samples of Minecraft skins <br>
 
+### DCGAN Training
 A sample of roughly 2800 skins were downloaded from https://www.minecraftskins.com/ and stored locally as PNG files. Using PyTorch's example DCGAN implementation, I trained the Generator and Discriminator networks using the sample of skins until the resulting outputs seemed reasonable. This process took roughly 180 epochs although the DCGAN was able to produce cohesive results within the first 50 epochs. <br>
 
 <div align="center">
@@ -36,20 +38,23 @@ Using the generated skins, I mapped each one on top of a Minecraft player model 
 New Skin 1 | New Skin 2 | New Skin 3 | New Skin 4 
 :---:|:---:|:---:|:---:
 ![](./assets/fake_3_scaled.png) | ![](./assets/fake_4_scaled.png) | ![](./assets/fake_6_scaled.png) | ![](./assets/fake_9_scaled.png)
+<br>
 
+### Dimensionality Reduction
 For the second portion of my objective, each skin was converted into a feature vector and reduced into 2 dimensions so that a comprehensible plot could be produced. My objective was to observe whether these skins, when reduced from thousand of dimensions into 2, preserved any sort of clusterable structure. The image feature extraction process utilized the VGG16 convolution neural network, a pre-trained network that was trained using roughly 1.2 million images. <br>
 
-Before running the entire dataset through the dimensionality reduction algorithm I first wanted to test this idea using a smaller subset of skins - preferably those of similar structure. Thus, I gathered 348 skins using the search term "Spiderman".
-
-<div>
-    <img src="../assets/skin-unwrapped-spiderman-01.png" width="500" height="800"/>
-    <img src="../assets/skin-unwrapped-spiderman-02.png" width="500" height="800"/>
+Below is a visual showing all 348 (including 10 randomly selected) Minecraft skins after dimensionality reduction. There are some clear clusters present since many of these skins are either exactly the same or very close in composition. This smaller data set served as a proof of concept before attempting to visualize the entire 2,800 large data set.
+<div align="center">
+    <p>Spiderman Skins</p>
+    <img src="../assets/UMAP-spiderman-front-view.png" width="500" height="800"/>
+    <img src="../assets/UMAP-spiderman-zoomed-0-front-view.png" width="500" height="800"/>
 </div>
 
-The below plot was created using the entire dataset of skins. This includes skins that did not have tags and skins that had a label other than one of the most popular ones.
+
 <div align="center">
-    <p>Dimensionality Reduction on All Skins</p>
-    <img src="./assets/full-data-umap.png" width="500" height="500" class="center" /> <br>
+    <p>All Skins</p>
+    <img src="../assets/UMAP-all-front-view.png" width="500" height="800"/>
+    <img src="../assets/UMAP-all-zoomed-0-front-view.png" width="500" height="800"/>
 </div>
 
 <br>
