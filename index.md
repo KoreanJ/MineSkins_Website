@@ -12,8 +12,12 @@ description:
 </style>
 
 ### Menu
-
-[Methodology](pages/methodology.html) <t> [Data](pages/data.html) <t> [Visuals](pages/visuals.html) <t> [Results](pages/results.html) <t> [Looking Forward](pages/looking_forward.html) <t> [Appendix](pages/references.html)
+- [Methodology](pages/methodology.html)
+- [Data](pages/data.html)
+- [Visuals](pages/visuals.html)
+- [Results](pages/results.html)
+- [Looking Forward](pages/looking_forward.html)
+- [Appendix](pages/references.html)
 
 
 <br><br>
@@ -42,11 +46,15 @@ A sample of roughly 2800 skins were downloaded from https://www.minecraftskins.c
 Using the generated skins, I mapped each one on top of a Minecraft player model in order to visualize the results. Here are a few of the samples produced:
 
 <div align="center">
+    <p>"Angry Villager"</p>
     <img src="./assets/in-game-screenshots/angry-villager-0.png" width="400" height="800"/>
+    <p>"Gamer Girl"</p>
     <img src="./assets/in-game-screenshots/gamer-girl-0.png" width="400" height="800"/>
 </div>
 <div align="center">
+    <p>"Green Cyclops"</p>
     <img src="./assets/in-game-screenshots/green-cyclops-1.png" width="400" height="800"/>
+    <p>"Fire Monster"</p>
     <img src="./assets/in-game-screenshots/fire-monster-0.png" width="400" height="800"/>
 </div>
 <br>
@@ -58,6 +66,7 @@ Below is a visual showing all 348 (including 10 randomly selected) Minecraft ski
 <div align="center">
     <p>Spiderman Skins</p>
     <img src="./assets/UMAP-spiderman-front-view.png" width="500" height="800"/>
+    <p>Spiderman Skins (Zoomed In)</p>
     <img src="./assets/UMAP-spiderman-zoomed-0-front-view.png" width="500" height="800"/>
 </div>
 
@@ -65,6 +74,7 @@ Below is a visual showing all 348 (including 10 randomly selected) Minecraft ski
 <div align="center">
     <p>All Skins</p>
     <img src="./assets/UMAP-all-front-view.png" width="500" height="800"/>
+    <p>All Skins (Zoomed In)</p>
     <img src="./assets/UMAP-all-zoomed-0-front-view.png" width="500" height="800"/>
 </div>
 
