@@ -12,12 +12,12 @@ description:
 </style>
 
 ### Menu
-- [Methodology](pages/methodology.html)
+<!-- - [Methodology](pages/methodology.html)
 - [Data](pages/data.html)
 - [Visuals](pages/visuals.html)
 - [Results](pages/results.html)
 - [Looking Forward](pages/looking_forward.html)
-- [Appendix](pages/references.html)
+- [Appendix](pages/references.html) -->
 
 
 <br><br>
@@ -80,11 +80,6 @@ Below is a visual showing all 348 (including 10 randomly selected) Minecraft ski
 
 <br>
 
-The below plot was created using only skins that had at least 1 tag and a most popular tag that was part of the subset of top N tags (where N can be changed depending on preference). For example, if out of the top 20 most popular tags the first tag was "girl", then I would not include skins which had their most popular skin recorded with a tag of "girl".  
-<div align="center">
-    <p>Dimensionality Reduction on Skins With Popular Tag as Label</p>
-    <img src="./assets/data-with-tags.png" width="500" height="500" class="center" /> <br>
-</div>
 
 
 
