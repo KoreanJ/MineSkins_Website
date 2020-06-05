@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Generating Minecraft Player Skins with a DCGAN
+title: MineSkins - an exploration of generative art and dimensional reduction
 #tagline: Easy websites with GitHub Pages
 description:
 ---
 
 ### Menu
 | Methodology | Data | Visuals | Results | Future | References |
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |[Methodology](pages/methodology.html)|[Data](pages/data.html)|[Visuals](pages/visuals.html)|[Results](pages/results.html)|[Looking Forward](pages/looking_forward.html)|[References](pages/references.html)|
 
 <br><br>
