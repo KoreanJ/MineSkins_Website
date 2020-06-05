@@ -5,11 +5,18 @@ title: An exploration in generative art and dimensionality reduction
 description:
 ---
 
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
+
 ### Menu
 
 | Methodology | Data | Visuals | Results | Future | References |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|:-----|:-----|:-----|:-----|:-----|:-----|
 | [Methodology](pages/methodology.html) | [Data](pages/data.html) | [Visuals](pages/visuals.html) | [Results](pages/results.html) | [Looking Forward](pages/looking_forward.html) | [References](pages/references.html) |
+{: .tablelines}
 
 <br><br>
 
@@ -20,12 +27,13 @@ Online Skin Editor | Minecraft Player (in-game)
 :---:|:---:
 ![](./assets/skin-editor.png) | ![](./assets/in-game-screenshots/skin-in-game-01.jpg)
 
+<br><br>
 In this project I attempt the following objectives:
 1. Visualize the sample of skins as clusters using associated tags
-2. Use the sample of skins and a DCGAN to generate new samples of Minecraft skins <br>
+2. Use the sample of skins and a DCGAN to generate new samples of Minecraft skins <br><br>
 
 ### DCGAN Training
-A sample of roughly 2800 skins were downloaded from https://www.minecraftskins.com/ and stored locally as PNG files. Using PyTorch's example DCGAN implementation, I trained the Generator and Discriminator networks using the sample of skins until the resulting outputs seemed reasonable. This process took roughly 180 epochs although the DCGAN was able to produce cohesive results within the first 50 epochs. <br>
+A sample of roughly 2800 skins were downloaded from https://www.minecraftskins.com/ and stored locally as PNG files. Using PyTorch's example DCGAN implementation, I trained the Generator and Discriminator networks using the sample of skins until the resulting outputs seemed reasonable. This process took roughly 180 epochs although the DCGAN was able to produce cohesive results within the first 50 epochs. <br><br>
 
 <div align="center">
     <p>DCGAN Training Progress</p>
@@ -35,9 +43,14 @@ A sample of roughly 2800 skins were downloaded from https://www.minecraftskins.c
 
 Using the generated skins, I mapped each one on top of a Minecraft player model in order to visualize the results. Here are a few of the samples produced:
 
-New Skin 1 | New Skin 2 | New Skin 3 | New Skin 4 
-:---:|:---:|:---:|:---:
-![](./assets/fake_3_scaled.png) | ![](./assets/fake_4_scaled.png) | ![](./assets/fake_6_scaled.png) | ![](./assets/fake_9_scaled.png)
+<div align="center">
+    <img src="./assets/in-game-screenshots/angry-villager-0" width="400" height="800"/>
+    <img src="./assets/in-game-screenshots/gamer-girl-0" width="400" height="800"/>
+</div>
+<div align="center">
+    <img src="./assets/in-game-screenshots/green-cyclops-1" width="400" height="800"/>
+    <img src="./assets/in-game-screenshots/fire-monster-0" width="400" height="800"/>
+</div>
 <br>
 
 ### Dimensionality Reduction
